@@ -37,7 +37,9 @@
               }
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "public/custom.css",
+              "node_modules/font-awesome/css/font-awesome.css"
             ],
             "scripts": []
           },
@@ -102,5 +104,9 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "2e5291a9-0e6c-491f-bf42-aae55598fbef"
   }
+
 }

@@ -1,0 +1,35 @@
+.product-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+h1{
+    font-size: 30px;
+    color: rgb(65, 65, 65);
+}
+
+table{
+    border-collapse: inherit;
+}
+
+table tbody tr td{
+    cursor: pointer;
+}
+
+table tbody tr.active td{
+    background-color: #c8daf8;
+}
+
+.icon{
+    color:rgb(55, 14, 178);
+    margin: 5px 10px;
+}
+
+.btn-outline-primary:hover{
+    background-color: cornflowerblue;
+    border-color: cornflowerblue;
+}
